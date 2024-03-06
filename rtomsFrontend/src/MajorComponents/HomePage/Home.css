@@ -1,0 +1,59 @@
+.HomeContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 60px; /* Add left margin */
+  margin-right: 60px;
+  margin-bottom: 10px;
+  padding: 0 20px; /* Add padding to create space on the left and right */
+}
+
+
+
+.HomeCard {
+  width: calc(25% - 60px); /* Adjusted width */
+  margin-bottom: 30px; /* Increased margin */
+  background-color: #6a93bb80;
+  /* background-color: #51d0d9c6; */
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.HomeCard img {
+  width: 60%; /* Adjusted width */
+  height: auto;
+  border-radius: 15px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.HomeCard h5 {
+  font-weight: bold;
+  color: #212529;
+}
+
+.HomeCard p {
+  margin-top: 10px;
+}
+
+.HomeCard .btn {
+  width: 23%;
+  padding: 8px 12px; /* Adjusted padding */
+  font-size: 14px;
+  background-color: #0dae0dab;
+  color: #ffffff;
+  border: none;
+  border-radius: 30px; /* Rounded shape */
+  transition: background-color 0.6s;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.HomeCard .btn:hover {
+  background-color: #218838;
+}

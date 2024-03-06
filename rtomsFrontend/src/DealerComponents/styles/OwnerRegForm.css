@@ -1,0 +1,104 @@
+/* Styles for transparent Owner Registration form */
+.transparent-OwnerRegForm {
+    background-color: rgba(193, 188, 188, 0.8) !important;
+    border-radius: 20px;
+  }
+  
+  .transparent-hr {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  /* Button styles */
+  .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  /* Styles for Owner Registration form */
+  .OwnerRegForm {
+    margin: 20px auto;
+    background-color: #8a8a8a;
+    padding: 20px; /* Increase padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  /* Styles for form group */
+  .form-group {
+    margin-bottom: 20px; /* Increase margin bottom for better spacing */
+  }
+  
+  /* Styles for container */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Styles for Owner Registration form footer */
+  .OwnerRegForm-footer {
+    margin-top: 10px; /* Adjust margin top as needed */
+  }
+  
+  
+  .registration-form-container {
+    max-width: 600px; /* Set the maximum width of the container */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .transparent-LearnerAppCard {
+    background-color: rgba(193, 188, 188, 0.8) !important;
+    border-radius: 20px;
+  }
+  
+  .transparent-hr {
+    border-color: rgba(255, 255, 255, 0.8) !important;
+  }
+  
+  .btn-primary {
+    background-color: #e50914;
+    border-color: #e50914;
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  .LearnerAppCard {
+    background-color: #8a8a8a;
+    padding: 20px; /* Increase padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .form-group {
+    margin-bottom: 20px; /* Increase margin bottom for better spacing */
+  }
+  
+
+ /* Styles for Owner Registration form */
+.OwnerRegCard {
+    margin: 20px auto;
+    background-color: #6a93bb80;
+    padding: 20px; /* Increase padding for better spacing */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    max-width: 800px; /* Set the maximum width of the card */
+  }
+  
+  .transparent-OwnerRegCard {
+    background-color: #6a93bb80(193, 188, 188, 0.8) !important;
+    border-radius: 20px;
+  }
+  
+
+  .file-input {
+    width: 250px;
+  }
+  

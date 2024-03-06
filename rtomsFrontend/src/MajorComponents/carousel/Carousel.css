@@ -1,0 +1,20 @@
+/* Center the carousel vertically and horizontally */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  /* Set the maximum width of the carousel */
+  .carousel {
+    max-width: 800px; /* Adjust maximum width as needed */
+  }
+  
+  /* Style the carousel items */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensure images cover the entire carousel item */
+  }
+  

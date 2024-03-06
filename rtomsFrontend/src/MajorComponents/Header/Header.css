@@ -1,0 +1,33 @@
+/* Header styles */
+header {
+    background-color: #000000;
+    /* Dark background color */
+    color: #afc9c7;
+    /* Text color */
+    padding: 20px;
+    /* Padding around the header content */
+    display: flex;
+    /* Use flexbox layout */
+    align-items: center;
+    /* Center align items vertically */
+   
+}
+
+.logo img {
+    width: 80px;
+    /* Set logo image width */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 10px;
+    /* Add some space between logo and title */
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.title {
+    margin: 0 auto;
+    /* Center the title horizontally */
+    font-size: 24px;
+    /* Set font size for title */
+}

@@ -1,0 +1,39 @@
+/* Footer.css */
+
+.footer {
+    background-color: #333;
+    color: #8d8c8c;
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    /* margin-top: 5%; */
+    
+    /* font-weight: bold; */
+  }
+  
+  .footer-links {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a {
+    color: #8b8e8a;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
+  
+
+  .footer ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 2rem;
+   }
+   
+   .footer ul li {
+    margin: 0 1rem;
+    font-size: 1.4rem;
+   }

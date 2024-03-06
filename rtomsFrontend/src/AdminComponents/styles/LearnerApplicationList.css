@@ -1,0 +1,81 @@
+table {
+    width: 80%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+
+  /* LearnerApplicationList.css */
+
+/* Style for the whole card */
+.card {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #6daaaa;
+  }
+  
+  /* Style for buttons */
+  .button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1rem;
+  }
+  
+  .button-container button {
+    margin-left: 8px;
+  }
+  
+
+  /* VehicleListByOwner.css */
+
+/* Primary button */
+.btn-primary {
+    background-color: #3fbe4e; /* Blue color */
+    border-color: #43b673; /* Border color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Secondary button */
+  .btn-secondary {
+    background-color: #6c757d; /* Gray color */
+    border-color: #6c757d; /* Border color */
+    color: #fff; /* Text color */
+  }
+  
+  /* Hover effect for primary button */
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+    border-color: #0056b3; /* Darker border color on hover */
+  }
+  
+  /* Hover effect for secondary button */
+  .btn-secondary:hover {
+    background-color: #5a6268; /* Darker gray color on hover */
+    border-color: #545b62; /* Darker border color on hover */
+  }
+  

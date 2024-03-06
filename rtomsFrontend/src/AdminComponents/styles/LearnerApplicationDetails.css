@@ -1,0 +1,98 @@
+.custom-card {
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  border-width: 4px;
+}
+
+.card-header {
+  text-align: center;
+  font-size: 24px; /* Larger font size */
+  color: #070808; /* Blue color */
+  margin-bottom: 20px; /* Increase margin below header */
+}
+
+.details-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-details,
+.address-details,
+.other-details {
+  flex: 1;
+  margin-right: 20px; /* Add some space between sections */
+}
+
+.personal-details p,
+.address-details p,
+.other-details p {
+  margin-bottom: 10px; /* Increase margin between paragraphs */
+  font-size: 16px; /* Smaller font size */
+  color: #333; /* Dark gray color */
+}
+
+.personal-details strong,
+.address-details strong,
+.other-details strong {
+  font-weight: bold;
+  color: #555; /* Slightly darker gray color for strong tags */
+}
+
+.table {
+  background-color: transparent; /* Make the table transparent */
+}
+
+.table th,
+.table td {
+  border: none; /* Remove borders from table cells */
+}
+
+/* Add this CSS to your LearnerApplicationDetails.css file */
+
+/* Style for the buttons row */
+.button-row {
+  margin-top: 20px; /* Add margin to create space between the table and buttons */
+}
+
+/* Style for the buttons */
+.button-row .btn {
+  margin-right: 10px; /* Add margin between the buttons */
+  width: 120px; /* Set a fixed width for the buttons */
+  border-radius: 0; /* Remove border radius */
+  font-weight: bold; /* Make the font bold */
+}
+
+/* Style for the approve button */
+.button-row .btn-approve {
+  background-color: #28a745; /* Green background */
+  border-color: #28a745; /* Green border */
+  color: #fff; /* White text */
+}
+
+/* Style for the reject button */
+.button-row .btn-reject {
+  background-color: #dc3545; /* Red background */
+  border-color: #dc3545; /* Red border */
+  color: #fff; /* White text */
+}
+
+/* Style for the dropdown and download button container */
+.button-row .dropdown-download-container {
+  margin-left: auto; /* Push the container to the right */
+}
+
+/* Style for the dropdown button */
+.button-row .dropdown-download-container .dropdown-toggle {
+  margin-right: 10px; /* Add margin between the dropdown button and the download button */
+}
+
+/* Style for the download button */
+.button-row .dropdown-download-container .btn-download {
+  width: 150px; /* Set a wider width for the download button */
+}

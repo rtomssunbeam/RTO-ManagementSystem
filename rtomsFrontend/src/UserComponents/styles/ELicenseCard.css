@@ -1,0 +1,30 @@
+.license-card {
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid #000000; /* Blue border */
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #95999d; /* Blue header */
+    color: #070505; /* White text */
+    text-align: center;
+    border-radius: 30px;
+}
+
+.license-details {
+    padding: 10px;
+}
+
+.license-details p {
+    margin-bottom: 10px;
+}
+
+/* ELicenseCard.css */
+.logo-image {
+    max-width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
+  

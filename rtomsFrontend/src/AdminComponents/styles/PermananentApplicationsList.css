@@ -1,0 +1,68 @@
+/* Primary Button */
+.primary-button {
+    background-color: #18953b; /* Blue color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .primary-button:hover {
+    background-color: #0e6e31; /* Darker shade of blue on hover */
+  }
+
+  .secondary-button:hover {
+    background-color: #c03b36; /* Darker shade of blue on hover */
+  }
+
+  .primary-button:disabled {
+    background-color: #999; /* Gray color for disabled button */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+
+  .secondary-button:disabled {
+    background-color: #999; /* Gray color for disabled button */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+  
+  /* Secondary Button */
+  .secondary-button {
+    background-color: #da4a58; /* Red color */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+    

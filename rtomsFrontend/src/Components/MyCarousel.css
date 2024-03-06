@@ -1,0 +1,76 @@
+/* MyCarousel.css
+
+.carousel-control-prev,
+.carousel-control-next { */
+  /* background-color: #007bff;  */
+  /* Change this to your desired color */
+
+  /* width: 5%;  */
+  /* Adjust the width as needed */
+/* }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);  */
+  /* Invert the color of the default button icon */
+/* } */
+
+/* MyCarousel.css */
+
+/* Hide horizontal overflow on the body */
+/* body {
+    overflow-x: hidden; 
+  } */
+
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: transparent; 
+  border: none; 
+  color: black;
+  width: 5%;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+
+/* MyCarousel.css */
+
+#carouselExample {
+    background-color: transparent; /* Set background color to transparent */
+    /* margin: 0 15px; */
+  }
+  
+  .carousel-inner {
+    height: 100%; /* Ensure images take full height of the carousel */
+  }
+  
+  .carousel-item img {
+    max-height: 100%; /* Ensure images are responsive and do not exceed carousel height */
+  }
+
+  .d-block{
+    font-size: 20rem;
+  }
+  /* .carousel-control-prev,
+  .carousel-control-next {
+    background-color: black; /* Set background color to black */
+  /*  border: none; /* Remove button border */
+   /* color: white; /* Set arrow color to white */
+  /* }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%); /* Invert the color of the default button icon */
+  /* } */
+
+  /* Adjust the position of carousel controls */
+.carousel-control-prev {
+    left: 0;
+  }
+  
+  .carousel-control-next {
+    right: 0;
+  }

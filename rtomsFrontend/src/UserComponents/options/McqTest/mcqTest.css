@@ -1,0 +1,54 @@
+/* Custom radio buttons */
+.custom-control-input:checked ~ .custom-control-label::before {
+    background-color: #007bff; /* Change the color when checked */
+  }
+  
+  .custom-control-input:focus ~ .custom-control-label::before {
+    box-shadow: 0 0 0 1px #007bff, 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Add focus outline */
+  }
+  
+  
+  .mcq-card {
+    background-color: #609ca6; /* Gray background color */
+    border: 1px solid #0e0f10; /* Gray border */
+    border-radius: 10px; /* Rounded corners */
+    
+    height: 250px;
+
+   
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    margin-bottom: 20px; /* Add space below each card */
+    margin-right: 100px; /* Add right margin */
+    margin-left: 100px; /* Add left margin */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+  
+  .mcq-card .card-body {
+    padding: 20px; /* Add padding inside the card body */
+  }
+  
+  .mcq-card .custom-control-input:checked~.custom-control-label::before {
+    background-color: #007bff; /* Blue color for checked radio button */
+    border-color: #007bff; /* Blue border color for checked radio button */
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .submit-button:disabled {
+    background-color: #8595a26e;
+    border-color: #6c757d;
+  }
+  

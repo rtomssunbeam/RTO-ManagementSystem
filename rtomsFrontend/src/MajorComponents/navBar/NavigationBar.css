@@ -1,0 +1,53 @@
+/* NavigationBar.css */
+
+.navbar .nav-link.active {
+  color: green;
+  
+}
+
+.custom-navbar {
+  background-color: rgb(57, 57, 57); /* Change to your desired color */
+  width: 100%; /* Set the width to 100% */
+  padding: 10px; /* Padding around the navbar */
+}
+
+.navbar .nav-link {
+  color: white; /* Text color for the navbar links */
+}
+
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.custom-navbar .navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: rgb(43, 42, 42); /* Background color for the dropdown menu */
+}
+
+.custom-navbar .navbar-nav .nav-item.dropdown .dropdown-menu .dropdown-item:hover {
+  background-color: rgb(121, 119, 119); /* Background color for dropdown menu items on hover */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #141313;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.ml-auto {
+  margin-left: auto !important;
+}
+
+
+
+
+
