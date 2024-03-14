@@ -1,2 +1,2 @@
 # RTO-ManagementSystem
-We built a web system for managing driver's licenses, making it easy for users to apply and for dealers to register new vehicles. Our backend is made using SpringBoot and frontend is made using React js.
+ We've developed a user-friendly web application for streamlined management of driver's licenses, facilitating easy applications for users and vehicle registrations for dealers. The platform offers online tests and test drive bookings for learning and permanent licenses, alongside vehicle registration functionalities for dealers. Administrators have complete control over all operations, ensuring seamless monitoring of processes. Deployment is planned on an Amazon EC2 instance for reliable and efficient hosting.
