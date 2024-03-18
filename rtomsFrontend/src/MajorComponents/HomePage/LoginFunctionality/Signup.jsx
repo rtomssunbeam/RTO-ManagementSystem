@@ -65,7 +65,7 @@ const SignupForm = () => {
       }
 
     } catch (error) {
-      console.error('Error sending OTP:', error);
+     console.error('Error sending OTP:', error);
       // Handle error, show a message, etc.
     } finally {
       setLoading(false);
